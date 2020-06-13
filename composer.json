@@ -1,0 +1,11 @@
+{
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.1",
+        "guzzlehttp/psr7": "^1.6",
+        "http-interop/http-factory-guzzle": "^1.0",
+        "laminas/laminas-diactoros": "^2.3",
+        "slim/php-view": "^2.2",
+        "php-di/php-di": "^6.1"
+    }
+}
