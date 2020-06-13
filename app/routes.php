@@ -38,10 +38,11 @@ return function(App $app){
       	'itemPosition' => $pos,
       	'listColor' => 'colorBlue'
     	));
-    	$addedQuery->save();	
-		$routeParser = $app->getRouteCollector()->getRouteParser();
-	    $url = $routeParser->urlFor('home');
-		header('Location: '.$url);
+    	$addedQuery->save();
+    	return $response;	
+		// $routeParser = $app->getRouteCollector()->getRouteParser();
+	 //    $url = $routeParser->urlFor('home');
+		// header('Location: '.$url);
   
     });
 
